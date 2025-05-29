@@ -2,3 +2,12 @@
 # O programa deve receber a distância percorrida e o tempo gasto, calcular a velocidade e indicar se foi 
 # lenta (<5 km/h), moderada (5 a 10 km/h) ou rápida (>10 km/h).
 
+tempo = int(input("Digite seu tempo gasto."))
+dintancia = int(input("Digite sua distancia percorrida."))
+ if = tempo
+
+
+
+
+
+
