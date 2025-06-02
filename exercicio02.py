@@ -4,16 +4,12 @@
 # erro e não somar o total.
 #Soma OK, negativo não funciona
 
-tarefaX = int(input("Digite o tempo do tarefa X."))
-tarefaY = int(input("Digite o tempo do tarefa Y."))
-tarefaZ = int(input("Dgite o tempo do tarefa Z."))
+tarefa_1 = int(input("Dias para tarefa_1:"))
+tarefa_2 = int(input("Dias para tarefa_2:"))
+tarefa_3 = int(input("Dias para tarefa_3:"))
 
-soma = tarefaX + tarefaY + tarefaZ
-if tarefaX  < 0:
-    print("ERRO!! Seu tempo foi negativo")
-elif tarefaY  < 0:
-    print("ERRO!! Seu tempo foi negativo")
-elif tarefaZ  < 0:
-    print("ERRO!! Seu tempo foi negativo")
+if tarefa_1 < 0 or tarefa_2 < 0 or tarefa_3 < 0 :
+    print("ERRO!! numeros negativo")
 else:
-    print("Seu tempo foi:" , soma)
+    soma = tarefa_1 + tarefa_2 + tarefa_3
+    print(f"Tempo total do projeto: {soma} dias")
