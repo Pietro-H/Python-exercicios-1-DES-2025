@@ -2,17 +2,17 @@
 # O programa deve receber a distância percorrida e o tempo gasto, calcular a velocidade e indicar se foi 
 # lenta (<5 km/h), moderada (5 a 10 km/h) ou rápida (>10 km/h).
 
-tempo = int(input("Digite seu tempo gasto:"))
-distancia = int(input("Digite sua distancia percorrida:"))
+distancia = float(input("Digite sua distancia percorrida:"))
+tempo = float(input("Digite seu tempo gasto:"))
 
-velocidadeM = distancia / tempo
-print(f"{velocidadeM:.2f} km/h")
+V_media = distancia / tempo 
+print(f"{V_media:.2f} km/h")
 
-if velocidadeM < 5:
+if V_media < 5:
     print("Velocidade lenta.")
-elif velocidadeM < 10:
+elif V_media < 10:
     print("Velocidade modereda.")
-elif velocidadeM > 10:
+else:
     print("velocidade rapida")
 
 

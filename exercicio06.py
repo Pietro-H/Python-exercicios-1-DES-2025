@@ -3,8 +3,10 @@
 
 plataforma = int(input("Digite Sua hora atual é:"))
 
-if plataforma
-
+if plataforma >9 <21:
+    print("você ainda está na carga horária.")
+else:
+    print("Você está fora de carga horária")
 
 
 
