@@ -5,17 +5,15 @@
 #Acima de R$ 5000,00: +5%
 
 salario = float(input("Digite Seu salário:"))
-porcentagem = float(input("Digite sua porcentagem:"))
 
-reajuste01 = salario /0.15
-reajuste02 = salario /0.10
-reajuste03 = salario /0.5
+reajuste01 = salario *0.15
+reajuste02 = salario *0.10
+reajuste03 = salario *0.5
 
 if salario <= 2000:
     print("Você ganhou um reajuste de mais 15%, que foi de +" , reajuste01)
-elif salario :
+elif salario <= 5000 :
     print("Você ganhou um reajuste de mais 10% que foi de +" , reajuste02)
-elif salario > 5000:
+elif salario  >= 5001:
     print("Você ganhou um reajuste de mais 5% que foi de +" , reajuste03)
 
-#falta muito pouco

@@ -5,9 +5,9 @@
 idade = int(input("Digite a sua idade:"))
 
 
-if idade >=13:
+if idade >= 13:
     print("Você está permetido entrar.")
-elif idade <13:
+elif idade < 13:
     print("Você não tem idade permitida.")
 
 
