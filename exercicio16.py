@@ -4,7 +4,7 @@
 #De R$ 2000,01 a R$ 5000,00: +10%
 #Acima de R$ 5000,00: +5%
 
-salario = float(input("Digite Seu salário:"))
+salario = float(input("Digite Seu salário: "))
 
 reajuste01 = salario *0.15
 reajuste02 = salario *0.10

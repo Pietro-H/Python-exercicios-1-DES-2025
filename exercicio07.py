@@ -5,9 +5,9 @@
 # Em treinamento (>=5 e <7)
 # Reprovado (<5)
 
-media1 = float(input("Digite sua primeiro média:"))
-media2 = float(input("Digite sua sugunda média:"))
-media3 = float(input("Digite sua terceira média:"))
+media1 = float(input("Digite sua primeiro média: "))
+media2 = float(input("Digite sua sugunda média: "))
+media3 = float(input("Digite sua terceira média: "))
 
 soma = media1 + media2 + media3/3
 

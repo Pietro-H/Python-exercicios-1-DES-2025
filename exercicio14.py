@@ -4,7 +4,7 @@
 #Acima de R$ 300,00 têm 5%
 #Menor ou igual a R$ 300,00 não têm desconto
 
-compras = float(input("Digite o valor da sua compra:"))
+compras = float(input("Digite o valor da sua compra: "))
 
 if compras > 500:
     print("você tem 10% de deconto.")

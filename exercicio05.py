@@ -2,7 +2,7 @@
 # O programa deve receber o total consumido e avisar se ele ultrapassou o limite.
 
 
-consumo = int(input("Digite seu consumo de internet mensal:"))
+consumo = int(input("Digite seu consumo de internet mensal: "))
 
 soma = consumo
 if consumo < 100:

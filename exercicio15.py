@@ -2,7 +2,7 @@
 
 #Permitido: 13 anos ou mais
 
-idade = int(input("Digite a sua idade:"))
+idade = int(input("Digite a sua idade: "))
 
 
 if idade >= 13:

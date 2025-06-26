@@ -6,8 +6,8 @@
 #Sobrepeso (25 a 29.9)
 #Obesidade (>= 30)
 
-peso = float(input("Digite seu peso:"))
-altura = float(input("Digite sua altura:"))
+peso = float(input("Digite seu peso: "))
+altura = float(input("Digite sua altura: "))
 
 imc = peso/altura**2
 
